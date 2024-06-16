@@ -61,3 +61,5 @@ nav:
   - Home: index.md
   - Containers:
       - containers/mkdocs-material.md
+  - Others:
+      - others/website-check-and-crawl.md
