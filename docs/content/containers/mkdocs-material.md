@@ -5,8 +5,8 @@ Docker image based on [squidfunk/mkdocs-material](https://hub.docker.com/r/squid
 ## Build and push to Docker Hub
 
 ```bash
-docker buildx build --push -t accesspc/mkdocs-material:9.5.26 .
-docker buildx build --push -t accesspc/mkdocs-material:9.5 .
-docker buildx build --push -t accesspc/mkdocs-material:9 .
-docker buildx build --push -t accesspc/mkdocs-material:latest .
+docker buildx build --platform=linux/amd64,linux/arm64 --push -t accesspc/mkdocs-material:9.5.26 .
+docker buildx build --platform=linux/amd64,linux/arm64 --push -t accesspc/mkdocs-material:9.5 .
+docker buildx build --platform=linux/amd64,linux/arm64 --push -t accesspc/mkdocs-material:9 .
+docker buildx build --platform=linux/amd64,linux/arm64 --push -t accesspc/mkdocs-material:latest .
 ```
