@@ -1,2 +1,5 @@
+# sonar scanner
+.scannerwork
+
 # mkdocs
 /site
